@@ -32,7 +32,9 @@ function ShoppingListCheckOffService() {
   var toBuyItems = [{ name: "cookies", quantity: 10 },
                     { name: "chips", quantity: 6 },
                     { name: "apples", quantity: 15 },
-                    { name: "oranges", quantity: 20 }];
+                    { name: "oranges", quantity: 20 },
+                    { name: "coke", quantity: 1 },
+                    { name: "bottle of water", quantity: 1 }];
   var boughtItems = [];
 
   service.buyItem = function (itemIdex) {
